@@ -51,10 +51,6 @@ public class ResendPage extends BasePage {
     }
 
     public void answerQuestions() {
-        // Благодарность за ответы пока не существует
-        Assert.assertFalse(
-                "Благодарность не найдена или видна раньше срока",
-                isElementPresent(SHOW_THANKS));
         // Отвечаем случайно на первый вопрос
         switch ((int) (Math.random() * 2)) {
             case 0:
@@ -136,10 +132,6 @@ public class ResendPage extends BasePage {
     }
 
     public void resendEmail() {
-        // Проверяем отсутствие слова AGAIN
-        Assert.assertFalse(
-                "Не удалось найти resend email",
-                isElementPresent(SENT_EMAIL_TEXT_AGAIN));
         // Отправляем повторно
         Assert.assertTrue(
                 "Не удалось найти resend email",

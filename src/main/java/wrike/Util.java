@@ -1,7 +1,10 @@
 package wrike;
 
+import io.qameta.allure.Attachment;
+
 public class Util {
 
+    @Attachment
     public static String generateLogin() {
         StringBuilder ans = new StringBuilder();
         int len = (int) (1 + Math.random() * 20);
