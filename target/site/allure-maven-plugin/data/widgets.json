@@ -1,0 +1,62 @@
+{
+  "summary" : {
+    "reportName" : "Allure Report",
+    "testRuns" : [ ],
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "time" : {
+      "start" : 1559940436551,
+      "stop" : 1559940460677,
+      "duration" : 24126,
+      "minDuration" : 24126,
+      "maxDuration" : 24126,
+      "sumDuration" : 24126
+    }
+  },
+  "environment" : [ ],
+  "suites" : {
+    "total" : 1,
+    "items" : [ {
+      "uid" : "9364b7ffe53aae28dbbabcc08bd04a2f",
+      "name" : "wrike.MainTest",
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 1
+      }
+    } ]
+  },
+  "history-trend" : [ {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ],
+  "behaviors" : {
+    "total" : 1,
+    "items" : [ ]
+  },
+  "executors" : [ {
+    "name" : "Maven",
+    "type" : "maven",
+    "buildName" : "kovshov"
+  } ],
+  "categories" : {
+    "total" : 0,
+    "items" : [ ]
+  },
+  "launches" : [ ]
+}

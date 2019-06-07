@@ -34,11 +34,21 @@
             <artifactId>allure-junit4</artifactId>
             <version>${allure-junit4.version}</version>
         </dependency>
+
     </dependencies>
 
     <build>
 
         <plugins>
+
+            <plugin>
+                <groupId>io.qameta.allure</groupId>
+                <artifactId>allure-maven</artifactId>
+                <version>2.9</version>
+                <configuration>
+                    <reportVersion>2.3.1</reportVersion>
+                </configuration>
+            </plugin>
 
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -61,6 +71,14 @@
                             <value>${project.build.directory}/allure-results</value>
                         </property>
                     </systemProperties>
+                    <systemPropertyVariables>
+                        <Dwebdriver.chrome.driver>
+                            D:\Programms\Google\chromedriver.exe
+                        </Dwebdriver.chrome.driver>
+                        <Djava.net.preferIPv4Stack>
+                            true
+                        </Djava.net.preferIPv4Stack>
+                    </systemPropertyVariables>
                 </configuration>
                 <dependencies>
                     <dependency>

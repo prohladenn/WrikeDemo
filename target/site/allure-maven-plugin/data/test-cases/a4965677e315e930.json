@@ -1,0 +1,71 @@
+{
+  "uid" : "a4965677e315e930",
+  "name" : "РћСЃРЅРѕРІРЅРѕР№ С‚РµСЃС‚, РІ РєРѕС‚РѕСЂРѕРј РїСЂРѕРёСЃС…РѕРґРёС‚ РІСЃС‘ СѓРєР°Р·Р°РЅРЅРѕРµ РІ РўР—",
+  "fullName" : "wrike.MainTest.test",
+  "historyId" : "6eea2ba87ac5045391866efd501b4add",
+  "time" : {
+    "start" : 1559940436551,
+    "stop" : 1559940460677,
+    "duration" : 24126
+  },
+  "description" : "Р�Р·РЅР°С‡Р°Р»СЊРЅРѕ РґСЂР°Р№РІРµСЂ РїРѕР»СѓС‡Р°РµС‚ url СЃР°Р№С‚Р°, Р° РґР°Р»СЊС€Рµ СЃРѕР·РґР°С‘С‚ РѕР±СЉРµРєС‚ РїРµСЂРІРѕР№ СЃС‚СЂР°РЅРёС†С‹РІС‹РїРѕР»РЅСЏРµС‚ РЅР° РЅС‘Рј СЂРµРіРёСЃС‚СЂР°С†РёСЋ Рё РїРѕРїР°РґР°РµС‚ РЅР° РІС‚РѕСЂСѓСЋ СЃС‚СЂР°РЅРёС†Сѓ, РіРґРµ РїСЂРѕС…РѕРґРёС‚ РѕРїСЂРѕСЃ, РѕС‚РїСЂР°РІР»СЏРµС‚ РІРѕРїС‚РѕСЂРЅРѕ РїРёСЃСЊРјРѕ Рё РїСЂРѕРІРµСЂСЏРµС‚ РєРѕСЂСЂРµРєС‚РЅРѕСЃС‚СЊ СЃСЃС‹Р»РєРё Рё РёРєРѕРЅРєРё РґР»Р° TWITTER",
+  "descriptionHtml" : "<p>Р�Р·РЅР°С‡Р°Р»СЊРЅРѕ РґСЂР°Р№РІРµСЂ РїРѕР»СѓС‡Р°РµС‚ url СЃР°Р№С‚Р°, Р° РґР°Р»СЊС€Рµ СЃРѕР·РґР°С‘С‚ РѕР±СЉРµРєС‚ РїРµСЂРІРѕР№ СЃС‚СЂР°РЅРёС†С‹РІС‹РїРѕР»РЅСЏРµС‚ РЅР° РЅС‘Рј СЂРµРіРёСЃС‚СЂР°С†РёСЋ Рё РїРѕРїР°РґР°РµС‚ РЅР° РІС‚РѕСЂСѓСЋ СЃС‚СЂР°РЅРёС†Сѓ, РіРґРµ РїСЂРѕС…РѕРґРёС‚ РѕРїСЂРѕСЃ, РѕС‚РїСЂР°РІР»СЏРµС‚ РІРѕРїС‚РѕСЂРЅРѕ РїРёСЃСЊРјРѕ Рё РїСЂРѕРІРµСЂСЏРµС‚ РєРѕСЂСЂРµРєС‚РЅРѕСЃС‚СЊ СЃСЃС‹Р»РєРё Рё РёРєРѕРЅРєРё РґР»Р° TWITTER</p>\n",
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "276ee030b082c8a",
+      "name" : "generateLogin",
+      "source" : "276ee030b082c8a.txt",
+      "type" : "text/plain",
+      "size" : 29
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "wrike"
+  }, {
+    "name" : "testClass",
+    "value" : "wrike.MainTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "test"
+  }, {
+    "name" : "suite",
+    "value" : "wrike.MainTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-IDKR1GQ"
+  }, {
+    "name" : "thread",
+    "value" : "5532@DESKTOP-IDKR1GQ.main(1)"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a4965677e315e930.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

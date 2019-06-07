@@ -1,0 +1,21 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "wrike.MainTest",
+    "children" : [ {
+      "name" : "РћСЃРЅРѕРІРЅРѕР№ С‚РµСЃС‚, РІ РєРѕС‚РѕСЂРѕРј РїСЂРѕРёСЃС…РѕРґРёС‚ РІСЃС‘ СѓРєР°Р·Р°РЅРЅРѕРµ РІ РўР—",
+      "uid" : "a4965677e315e930",
+      "parentUid" : "9364b7ffe53aae28dbbabcc08bd04a2f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1559940436551,
+        "stop" : 1559940460677,
+        "duration" : 24126
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "9364b7ffe53aae28dbbabcc08bd04a2f"
+  } ]
+}

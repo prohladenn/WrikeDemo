@@ -1,0 +1,21 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "wrike",
+    "children" : [ {
+      "name" : "test",
+      "uid" : "a4965677e315e930",
+      "parentUid" : "e5eb83ebf67a61a950d1d24835241b40",
+      "status" : "passed",
+      "time" : {
+        "start" : 1559940436551,
+        "stop" : 1559940460677,
+        "duration" : 24126
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "e5eb83ebf67a61a950d1d24835241b40"
+  } ]
+}

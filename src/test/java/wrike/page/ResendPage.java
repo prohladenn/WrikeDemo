@@ -31,15 +31,15 @@ public class ResendPage extends BasePage {
 
     public void check(WebDriver driver) {
         // Проверка загрузки страницы
-        Assert.assertTrue("Не дождались раздела с вопросами",
+        Assert.assertTrue("Не дождались раздела с вопросами SURVEY",
                 explicitWait(ExpectedConditions.visibilityOfElementLocated(SURVEY),
                         10,
                         500));
-        Assert.assertTrue("Не дождались раздела с текстом об отправке",
+        Assert.assertTrue("Не дождались раздела с текстом об отправке SENT_EMAIL_TEXT",
                 explicitWait(ExpectedConditions.visibilityOfElementLocated(SENT_EMAIL_TEXT),
                         10,
                         500));
-        Assert.assertTrue("Не дождались блока FOLLOW US",
+        Assert.assertTrue("Не дождались блока FOLLOW_US",
                 explicitWait(ExpectedConditions.visibilityOfElementLocated(FOLLOW_US),
                         10,
                         500));
@@ -55,13 +55,13 @@ public class ResendPage extends BasePage {
         switch ((int) (Math.random() * 2)) {
             case 0:
                 Assert.assertTrue(
-                        "Не удалось найти первый ответ на первый вопрос",
+                        "Не удалось найти первый ответ на первый вопрос ANS_1_1",
                         isElementPresent(ANS_1_1));
                 driver.findElement(ANS_1_1).click();
                 break;
             case 1:
                 Assert.assertTrue(
-                        "Не удалось найти второй ответ на первый вопрос",
+                        "Не удалось найти второй ответ на первый вопрос ANS_1_2",
                         isElementPresent(ANS_1_2));
                 driver.findElement(ANS_1_2).click();
                 break;
@@ -70,31 +70,31 @@ public class ResendPage extends BasePage {
         switch ((int) (Math.random() * 5)) {
             case 0:
                 Assert.assertTrue(
-                        "Не удалось найти первый ответ на второй вопрос",
+                        "Не удалось найти первый ответ на второй вопрос ANS_2_1",
                         isElementPresent(ANS_2_1));
                 driver.findElement(ANS_2_1).click();
                 break;
             case 1:
                 Assert.assertTrue(
-                        "Не удалось найти второй ответ на второй вопрос",
+                        "Не удалось найти второй ответ на второй вопрос ANS_2_2",
                         isElementPresent(ANS_2_2));
                 driver.findElement(ANS_2_2).click();
                 break;
             case 2:
                 Assert.assertTrue(
-                        "Не удалось найти третий ответ на второй вопрос",
+                        "Не удалось найти третий ответ на второй вопрос ANS_2_3",
                         isElementPresent(ANS_2_3));
                 driver.findElement(ANS_2_3).click();
                 break;
             case 3:
                 Assert.assertTrue(
-                        "Не удалось найти четвёртый ответ на второй вопрос",
+                        "Не удалось найти четвёртый ответ на второй вопрос ANS_2_4",
                         isElementPresent(ANS_2_4));
                 driver.findElement(ANS_2_4).click();
                 break;
             case 4:
                 Assert.assertTrue(
-                        "Не удалось найти пятый ответ на второй вопрос",
+                        "Не удалось найти пятый ответ на второй вопрос ANS_2_5",
                         isElementPresent(ANS_2_5));
                 driver.findElement(ANS_2_5).click();
                 break;
@@ -103,50 +103,50 @@ public class ResendPage extends BasePage {
         switch ((int) (Math.random() * 3)) {
             case 0:
                 Assert.assertTrue(
-                        "Не удалось найти первый ответ на третий вопрос",
+                        "Не удалось найти первый ответ на третий вопрос ANS_3_1",
                         isElementPresent(ANS_3_1));
                 driver.findElement(ANS_3_1).click();
                 break;
             case 1:
                 Assert.assertTrue(
-                        "Не удалось найти второй ответ на третий вопрос",
+                        "Не удалось найти второй ответ на третий вопрос ANS_3_2",
                         isElementPresent(ANS_3_2));
                 driver.findElement(ANS_3_2).click();
                 break;
             case 2:
                 Assert.assertTrue(
-                        "Не удалось найти третий ответ на третий вопрос",
+                        "Не удалось найти третий ответ на третий вопрос ANS_3_3",
                         isElementPresent(ANS_3_3));
                 driver.findElement(ANS_3_3).click();
                 break;
         }
         // Отправляем наши ответы
         Assert.assertTrue(
-                "Не удалось найти submit",
+                "Не удалось найти SUBMIT",
                 isElementPresent(SUBMIT));
         driver.findElement(SUBMIT).click();
         // Смотрим что видна благодарность за отправу
         Assert.assertTrue(
-                "Благодарность не найдена или не видна",
+                "Благодарность не найдена или не видна SHOW_THANKS",
                 isElementPresent(SHOW_THANKS));
     }
 
     public void resendEmail() {
         // Отправляем повторно
         Assert.assertTrue(
-                "Не удалось найти resend email",
+                "Не удалось найти RESEND_EMAIL",
                 isElementPresent(RESEND_EMAIL));
         driver.findElement(RESEND_EMAIL).click();
         // Проверяем наличие слова AGAIN
         Assert.assertTrue(
-                "Не удалось найти resend email",
+                "Не удалось найти SENT_EMAIL_TEXT_AGAIN",
                 isElementPresent(SENT_EMAIL_TEXT_AGAIN));
     }
 
     public void checkTwitterLink() {
         // Проверяем наличие ссылки на твиттер
         Assert.assertTrue(
-                "Не удалось найти twitter",
+                "Не удалось найти TWITTER",
                 isElementPresent(TWITTER));
         // Проверяем корректность ссылки
         Assert.assertEquals(

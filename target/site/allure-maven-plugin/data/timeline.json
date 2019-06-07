@@ -1,0 +1,25 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-IDKR1GQ",
+    "children" : [ {
+      "name" : "5532@DESKTOP-IDKR1GQ.main(1)",
+      "children" : [ {
+        "name" : "РћСЃРЅРѕРІРЅРѕР№ С‚РµСЃС‚, РІ РєРѕС‚РѕСЂРѕРј РїСЂРѕРёСЃС…РѕРґРёС‚ РІСЃС‘ СѓРєР°Р·Р°РЅРЅРѕРµ РІ РўР—",
+        "uid" : "a4965677e315e930",
+        "parentUid" : "c16cc015615283d1550c517296e086bf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1559940436551,
+          "stop" : 1559940460677,
+          "duration" : 24126
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c16cc015615283d1550c517296e086bf"
+    } ],
+    "uid" : "fcd9a023a51f881111c667daaebbc44d"
+  } ]
+}
